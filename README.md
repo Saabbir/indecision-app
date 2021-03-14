@@ -4,7 +4,7 @@
 
 Coded this simple application using React while taking Andrew Mead's Udemy course - [The Complete React Developer Course (w/ Hooks and Redux)](https://www.udemy.com/course/react-2nd-edition/)
 
-<!-- Demo can be seen in here - https://saabbir.github.io/email-magic-html/ -->
+Demo can be seen in here - https://saabbir-indecision-app.netlify.app/
 
 ## Technology used
 
