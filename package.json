@@ -1,6 +1,11 @@
 {
   "name": "indecision-app",
   "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saabbir/indecision-app.git"
+  },
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack serve"
