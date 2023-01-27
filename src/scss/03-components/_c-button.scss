@@ -1,0 +1,56 @@
+.c-button {
+  background-color: $purple;
+  border: 0;
+  border-bottom: .3rem solid darken($purple, 10%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 500;
+  min-width: 10rem;
+  padding: $m-size;
+  transition: .2s;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: darken($purple, 10%);
+    border-bottom-color: darken($purple, 15%);
+  }
+
+  &--big {
+    border-bottom-width: .6rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+
+    @media (min-width: 360px) {
+      font-size: 3.2rem;
+    }
+
+    @media (min-width: 415px) {
+      margin-bottom: $xl-size;
+    }
+  }
+
+  &--link {
+    background-color: transparent;
+    border: 0;
+    color: $off-white;
+    font-weight: 400;
+    min-width: auto;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+
+  &:disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+}

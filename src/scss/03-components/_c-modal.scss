@@ -1,0 +1,47 @@
+// Modal fade-in-out CSS
+.ReactModalPortal {
+  & > div {
+    opacity: 0;
+  }
+  .ReactModal__Overlay {
+    transition: opacity  200ms ease-in-out;
+  }
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }  
+}
+
+.ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: $xl-size $m-size;
+  overflow: auto;
+}
+
+.c-modal {
+  background-color: #464B5E;
+  color: #fff;
+  max-width: 40rem;
+  padding: $l-size;
+  text-align: center;
+
+  &:focus {
+    outline: none;
+  }
+
+  &__title {
+    color: $off-white;
+    margin: 0 0 $m-size;
+  }
+
+  &__option {
+    color: #fff;
+    font-size: 4.8rem;
+    line-height: 1;
+    margin: 0 0 $l-size;
+  }
+}

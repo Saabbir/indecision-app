@@ -1,0 +1,30 @@
+.c-options {
+  background-color: #464B5E;
+  font-size: 1.8rem;
+
+  &__header {
+    align-items: center;
+    background-color: #3C4251;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $m-size;
+  }
+
+  &__header-title {
+    color: $off-white;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  &__empty {
+    border-bottom: 1px solid #5B6178;
+    color: #fff;
+    margin: 0;
+    padding: $m-size;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      padding: $l-size $m-size;
+    }
+  }
+}
