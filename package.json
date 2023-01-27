@@ -2,6 +2,7 @@
   "name": "indecision-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://saabbir.github.io/indecision-app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Saabbir/indecision-app.git"
